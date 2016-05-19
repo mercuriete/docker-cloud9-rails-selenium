@@ -21,7 +21,7 @@ rails server -p 8080 -b 0.0.0.0
 and then you can access usually at http://192.168.99.100:8080
 
 
-LICENCE
+LICENSE
 -------
 
 WTF YOU WANT http://www.wtfpl.net/about/
