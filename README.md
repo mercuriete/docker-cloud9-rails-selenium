@@ -5,7 +5,9 @@ Instructions
 ------------
 
 git clone --recursive https://github.com/mercuriete/docker-cloud9-rails-selenium
+
 cd docker-cloud9-rails-selenium
+
 docker-compose up –d
 
 
