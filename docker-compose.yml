@@ -7,7 +7,7 @@ networks:
 services:
 
  rails-ide:
-  build: ./cloud9
+  image: mercuriete/docker-cloud9-ruby-rails
   ports:
     - "80:80"
     - "8080:8080"
@@ -38,6 +38,17 @@ services:
 
  nodechrome:
   image: selenium/node-chrome-debug
+  ports:
+    - 5900
+  networks:
+    - prodnetwork
+  environment:
+   - HUB_PORT_4444_TCP_ADDR=selhub
+  depends_on:
+    - selhub
+
+ nodeie:
+  image: mercuriete/node-ie8-debug
   ports:
     - 5900
   networks:

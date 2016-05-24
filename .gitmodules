@@ -1,3 +1,0 @@
-[submodule "cloud9"]
-	path = cloud9
-	url = https://github.com/mercuriete/docker-cloud9-ruby-rails.git
