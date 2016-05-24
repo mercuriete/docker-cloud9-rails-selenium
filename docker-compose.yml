@@ -51,6 +51,7 @@ services:
   image: mercuriete/node-ie8-debug
   ports:
     - 5900
+    - 5555:5555
   networks:
     - prodnetwork
   environment:
